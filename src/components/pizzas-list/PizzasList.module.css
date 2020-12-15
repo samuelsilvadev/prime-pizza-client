@@ -1,0 +1,13 @@
+.cardImage {
+	min-height: 200px;
+}
+
+.cardContent {
+	height: 100px;
+}
+
+.addButton {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}

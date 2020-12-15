@@ -1,7 +1,3 @@
-export interface PizzasResponseApi {
-	id: number;
-	description: string;
-	imageUrl: string;
-	name: string;
-	price: number;
-}
+import { Pizza } from 'types/Pizza.type';
+
+export interface PizzasResponseApi extends Pizza {}
