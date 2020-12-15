@@ -1,5 +1,13 @@
+import useApi from 'hooks/useApi';
+
+import { API } from 'constants/api';
+
+import type { PizzasResponseApi } from './Home.types';
+
 function Home() {
-	return <h1>Homepage</h1>;
+	useApi<PizzasResponseApi[]>(API.PIZZAS);
+
+	return null;
 }
 
 export default Home;
